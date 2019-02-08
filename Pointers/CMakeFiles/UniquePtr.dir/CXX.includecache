@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/sf_share/CPP/Pointers/src/UniquePtr.cpp
+UniquePtr.h
+/media/sf_share/CPP/Pointers/src/UniquePtr.h
+iostream
+-
+string
+-
+memory
+-
+sstream
+-
+
+include/UniquePtr.h
+iostream
+-
+string
+-
+memory
+-
+sstream
+-
+

@@ -1,0 +1,3 @@
+/media/sf_share/CPP/Pointers/CMakeFiles/rebuild_cache.dir
+/media/sf_share/CPP/Pointers/CMakeFiles/UniquePtr.dir
+/media/sf_share/CPP/Pointers/CMakeFiles/edit_cache.dir

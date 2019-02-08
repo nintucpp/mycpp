@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/sf_share/CPP/SharedPtr/src/SharedPtr.cpp
+SharedPtr.h
+/media/sf_share/CPP/SharedPtr/src/SharedPtr.h
+iostream
+-
+string
+-
+memory
+-
+sstream
+-
+
+include/SharedPtr.h
+iostream
+-
+string
+-
+memory
+-
+sstream
+-
+
