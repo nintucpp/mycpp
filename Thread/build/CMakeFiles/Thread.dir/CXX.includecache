@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Thread.h
+thread
+-
+iostream
+-
+
+/media/sf_share/CPP/Thread/src/Thread.cpp
+Thread.h
+/media/sf_share/CPP/Thread/src/Thread.h
+thread
+-
+
