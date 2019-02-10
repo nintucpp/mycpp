@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Thread2.dir/src/Account.cpp.o CMakeFiles/Thread2.dir/src/Thread2.cpp.o CMakeFiles/Thread2.dir/src/main.cpp.o  -o Thread2 -pthread 

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Account.h
+iostream
+-
+
+../include/Thread2.h
+iostream
+-
+thread
+-
+mutex
+-
+Account.h
+../include/Account.h
+
+/media/sf_share/CPP/Thread2/src/Account.cpp
+Account.h
+/media/sf_share/CPP/Thread2/src/Account.h
+
+/media/sf_share/CPP/Thread2/src/Thread2.cpp
+Thread2.h
+-
+
+/media/sf_share/CPP/Thread2/src/main.cpp
+Account.h
+/media/sf_share/CPP/Thread2/src/Account.h
+Thread2.h
+/media/sf_share/CPP/Thread2/src/Thread2.h
+
