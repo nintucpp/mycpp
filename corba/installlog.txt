@@ -1,0 +1,598 @@
+nintu@nintu:/media/nintu/nintu/CPP/corba/omniORB-4.1.5$ make install
+making install in ./src...
+make[1]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src'
+making install in src/tool...
+make[2]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool'
+making install in src/tool/omkdepend...
+make[3]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omkdepend'
++ ../../../bin/scripts/omkdirhier /opt/bin
+mkdir: cannot create directory ‘//opt/bin’: Permission denied
++ /usr/bin/install -c -m 0755 omkdepend /opt/bin
+/usr/bin/install: cannot create regular file '/opt/bin': Permission denied
+dir.mk:29: recipe for target 'install' failed
+make[3]: *** [install] Error 1
+make[3]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omkdepend'
+dir.mk:26: recipe for target 'install' failed
+make[2]: *** [install] Error 2
+make[2]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool'
+dir.mk:30: recipe for target 'install' failed
+make[1]: *** [install] Error 2
+make[1]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src'
+GNUmakefile:14: recipe for target 'install' failed
+make: *** [install] Error 2
+nintu@nintu:/media/nintu/nintu/CPP/corba/omniORB-4.1.5$ sudo make install
+[sudo] password for nintu: 
+making install in ./src...
+make[1]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src'
+making install in src/tool...
+make[2]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool'
+making install in src/tool/omkdepend...
+make[3]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omkdepend'
++ ../../../bin/scripts/omkdirhier /opt/bin
++ /usr/bin/install -c -m 0755 omkdepend /opt/bin
+make[3]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omkdepend'
+making install in src/tool/omniidl...
+make[3]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl'
+making install in src/tool/omniidl/cxx...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl/cxx'
+making install in src/tool/omniidl/cxx/cccp...
+make[5]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl/cxx/cccp'
++ /usr/bin/install -c -m 0755 omnicpp /opt/bin
+make[5]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl/cxx/cccp'
++ ../../../../bin/scripts/omkdirhier /opt/lib/python2.7/site-packages
++ /usr/bin/install -c -m 0644 _omniidlmodule.so.4.1 /opt/lib/python2.7/site-packages
++ cd /opt/lib/python2.7/site-packages
++ rm -f _omniidlmodule.so.4
++ ln -s _omniidlmodule.so.4.1 _omniidlmodule.so.4
++ rm -f _omniidlmodule.so
++ ln -s _omniidlmodule.so.4 _omniidlmodule.so
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl/cxx'
+making install in src/tool/omniidl/python...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl/python'
+making install in src/tool/omniidl/python/omniidl...
+make[5]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl/python/omniidl'
++ ../../../../../bin/scripts/omkdirhier /opt/lib/python2.7/site-packages/omniidl
++ /usr/bin/install -c -m 0644 __init__.py /opt/lib/python2.7/site-packages/omniidl
++ /usr/bin/install -c -m 0644 main.py /opt/lib/python2.7/site-packages/omniidl
++ /usr/bin/install -c -m 0644 idlast.py /opt/lib/python2.7/site-packages/omniidl
++ /usr/bin/install -c -m 0644 idltype.py /opt/lib/python2.7/site-packages/omniidl
++ /usr/bin/install -c -m 0644 idlutil.py /opt/lib/python2.7/site-packages/omniidl
++ /usr/bin/install -c -m 0644 idlvisitor.py /opt/lib/python2.7/site-packages/omniidl
++ /usr/bin/install -c -m 0644 idlstring.py /opt/lib/python2.7/site-packages/omniidl
++ /usr/bin/install -c -m 0644 output.py /opt/lib/python2.7/site-packages/omniidl
+Listing . ...
+Compiling ./__init__.py ...
+Compiling ./idlast.py ...
+Compiling ./idlstring.py ...
+Compiling ./idltype.py ...
+Compiling ./idlutil.py ...
+Compiling ./idlvisitor.py ...
+Compiling ./main.py ...
+Compiling ./output.py ...
+make[5]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl/python/omniidl'
+making install in src/tool/omniidl/python/omniidl_be...
+make[5]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl/python/omniidl_be'
++ ../../../../../bin/scripts/omkdirhier /opt/lib/python2.7/site-packages/omniidl_be
++ /usr/bin/install -c -m 0644 __init__.py /opt/lib/python2.7/site-packages/omniidl_be
++ /usr/bin/install -c -m 0644 dump.py /opt/lib/python2.7/site-packages/omniidl_be
++ /usr/bin/install -c -m 0644 example.py /opt/lib/python2.7/site-packages/omniidl_be
++ /usr/bin/install -c -m 0644 interactive.py /opt/lib/python2.7/site-packages/omniidl_be
+Listing . ...
+Compiling ./__init__.py ...
+Compiling ./dump.py ...
+Compiling ./example.py ...
+Compiling ./interactive.py ...
+make[5]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl/python/omniidl_be'
+making install in src/tool/omniidl/python/scripts...
+make[5]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl/python/scripts'
++ /usr/bin/install -c -m 0755 omniidl /opt/bin
++ /usr/bin/install -c -m 0755 omniidlrun.py /opt/bin
+make[5]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl/python/scripts'
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl/python'
+make[3]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool/omniidl'
+make[2]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/tool'
+making install in src/lib...
+make[2]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib'
+making install in src/lib/omnithread...
+make[3]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omnithread'
++ rm -f static/libomnithread.a
++ ar cq static/libomnithread.a static/posix.o
++ ranlib static/libomnithread.a
++ /usr/bin/install -c -m 0644 static/libomnithread.a /opt/lib
++ /usr/bin/install -c -m 0644 shared/libomnithread.so.3.4 /opt/lib
++ cd /opt/lib
++ rm -f libomnithread.so.3
++ ln -s libomnithread.so.3.4 libomnithread.so.3
++ rm -f libomnithread.so
++ ln -s libomnithread.so.3 libomnithread.so
+make[3]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omnithread'
+making install in src/lib/omniORB...
+make[3]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB'
++ ../../../bin/scripts/omkdirhier /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/distdate.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/Naming.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/corbaidl_defs.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/corbaidl_operators.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/corbaidl_poa.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/ir_defs.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/ir_operators.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/ir_poa.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/boxes_defs.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/boxes_operators.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/boxes_poa.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/poa_enums_defs.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/poa_enums_operators.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/poa_enums_poa.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/omniTypedefs.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/bootstrap.hh /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB4/omniConnectionData.hh /opt/include/omniORB4
+making install in src/lib/omniORB/omniidl_be...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/omniidl_be'
+making install in src/lib/omniORB/omniidl_be/cxx...
+make[5]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/omniidl_be/cxx'
+making install in src/lib/omniORB/omniidl_be/cxx/header...
+make[6]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/omniidl_be/cxx/header'
++ ../../../../../../bin/scripts/omkdirhier /opt/lib/python2.7/site-packages/omniidl_be/cxx/header
++ /usr/bin/install -c -m 0644 __init__.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/header
++ /usr/bin/install -c -m 0644 defs.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/header
++ /usr/bin/install -c -m 0644 opers.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/header
++ /usr/bin/install -c -m 0644 poa.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/header
++ /usr/bin/install -c -m 0644 tie.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/header
++ /usr/bin/install -c -m 0644 forward.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/header
++ /usr/bin/install -c -m 0644 marshal.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/header
++ /usr/bin/install -c -m 0644 tcstring.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/header
++ /usr/bin/install -c -m 0644 obv.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/header
++ /usr/bin/install -c -m 0644 template.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/header
+make[6]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/omniidl_be/cxx/header'
+making install in src/lib/omniORB/omniidl_be/cxx/skel...
+make[6]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/omniidl_be/cxx/skel'
++ ../../../../../../bin/scripts/omkdirhier /opt/lib/python2.7/site-packages/omniidl_be/cxx/skel
++ /usr/bin/install -c -m 0644 __init__.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/skel
++ /usr/bin/install -c -m 0644 main.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/skel
++ /usr/bin/install -c -m 0644 poa.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/skel
++ /usr/bin/install -c -m 0644 mangler.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/skel
++ /usr/bin/install -c -m 0644 template.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/skel
+make[6]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/omniidl_be/cxx/skel'
+making install in src/lib/omniORB/omniidl_be/cxx/dynskel...
+make[6]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/omniidl_be/cxx/dynskel'
++ ../../../../../../bin/scripts/omkdirhier /opt/lib/python2.7/site-packages/omniidl_be/cxx/dynskel
++ /usr/bin/install -c -m 0644 __init__.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/dynskel
++ /usr/bin/install -c -m 0644 main.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/dynskel
++ /usr/bin/install -c -m 0644 typecode.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/dynskel
++ /usr/bin/install -c -m 0644 tcstring.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/dynskel
++ /usr/bin/install -c -m 0644 template.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/dynskel
+make[6]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/omniidl_be/cxx/dynskel'
+making install in src/lib/omniORB/omniidl_be/cxx/impl...
+make[6]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/omniidl_be/cxx/impl'
++ ../../../../../../bin/scripts/omkdirhier /opt/lib/python2.7/site-packages/omniidl_be/cxx/impl
++ /usr/bin/install -c -m 0644 __init__.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/impl
++ /usr/bin/install -c -m 0644 main.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/impl
++ /usr/bin/install -c -m 0644 template.py /opt/lib/python2.7/site-packages/omniidl_be/cxx/impl
+Listing . ...
+Compiling ./__init__.py ...
+Compiling ./main.py ...
+Compiling ./template.py ...
+make[6]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/omniidl_be/cxx/impl'
++ /usr/bin/install -c -m 0644 __init__.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 util.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 skutil.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 id.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 types.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 config.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 output.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 ast.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 iface.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 call.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 cxx.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 support.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 descriptor.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 mapping.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
++ /usr/bin/install -c -m 0644 value.py /opt/lib/python2.7/site-packages/omniidl_be/cxx
+Listing cxx ...
+Compiling cxx/__init__.py ...
+Compiling cxx/ast.py ...
+Compiling cxx/call.py ...
+Compiling cxx/config.py ...
+Compiling cxx/cxx.py ...
+Compiling cxx/descriptor.py ...
+Listing cxx/dynskel ...
+Compiling cxx/dynskel/__init__.py ...
+Compiling cxx/dynskel/main.py ...
+Compiling cxx/dynskel/tcstring.py ...
+Compiling cxx/dynskel/template.py ...
+Compiling cxx/dynskel/typecode.py ...
+Listing cxx/header ...
+Compiling cxx/header/__init__.py ...
+Compiling cxx/header/defs.py ...
+Compiling cxx/header/forward.py ...
+Compiling cxx/header/marshal.py ...
+Compiling cxx/header/obv.py ...
+Compiling cxx/header/opers.py ...
+Compiling cxx/header/poa.py ...
+Compiling cxx/header/tcstring.py ...
+Compiling cxx/header/template.py ...
+Compiling cxx/header/tie.py ...
+Compiling cxx/id.py ...
+Compiling cxx/iface.py ...
+Listing cxx/impl ...
+Compiling cxx/mapping.py ...
+Compiling cxx/output.py ...
+Listing cxx/skel ...
+Compiling cxx/skel/__init__.py ...
+Compiling cxx/skel/main.py ...
+Compiling cxx/skel/mangler.py ...
+Compiling cxx/skel/poa.py ...
+Compiling cxx/skel/template.py ...
+Compiling cxx/skutil.py ...
+Compiling cxx/support.py ...
+Compiling cxx/types.py ...
+Compiling cxx/util.py ...
+Compiling cxx/value.py ...
+make[5]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/omniidl_be/cxx'
+File __init__.py hasn't changed.
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/omniidl_be'
+making install in src/lib/omniORB/orbcore...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/orbcore'
++ /usr/bin/install -c -m 0644 static/libomniORB4.a /opt/lib
++ /usr/bin/install -c -m 0644 shared/libomniORB4.so.1.5 /opt/lib
++ cd /opt/lib
++ rm -f libomniORB4.so.1
++ ln -s libomniORB4.so.1.5 libomniORB4.so.1
++ rm -f libomniORB4.so
++ ln -s libomniORB4.so.1 libomniORB4.so
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/orbcore'
+making install in src/lib/omniORB/dynamic...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/dynamic'
++ /usr/bin/install -c -m 0644 static/libomniDynamic4.a /opt/lib
++ /usr/bin/install -c -m 0644 shared/libomniDynamic4.so.1.5 /opt/lib
++ cd /opt/lib
++ rm -f libomniDynamic4.so.1
++ ln -s libomniDynamic4.so.1.5 libomniDynamic4.so.1
++ rm -f libomniDynamic4.so
++ ln -s libomniDynamic4.so.1 libomniDynamic4.so
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/dynamic'
+making install in src/lib/omniORB/codesets...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/codesets'
++ /usr/bin/install -c -m 0644 static/libomniCodeSets4.a /opt/lib
++ /usr/bin/install -c -m 0644 shared/libomniCodeSets4.so.1.5 /opt/lib
++ cd /opt/lib
++ rm -f libomniCodeSets4.so.1
++ ln -s libomniCodeSets4.so.1.5 libomniCodeSets4.so.1
++ rm -f libomniCodeSets4.so
++ ln -s libomniCodeSets4.so.1 libomniCodeSets4.so
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/codesets'
+making install in src/lib/omniORB/connections...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/connections'
++ /usr/bin/install -c -m 0644 static/libomniConnectionMgmt4.a /opt/lib
++ /usr/bin/install -c -m 0644 shared/libomniConnectionMgmt4.so.1.5 /opt/lib
++ cd /opt/lib
++ rm -f libomniConnectionMgmt4.so.1
++ ln -s libomniConnectionMgmt4.so.1.5 libomniConnectionMgmt4.so.1
++ rm -f libomniConnectionMgmt4.so
++ ln -s libomniConnectionMgmt4.so.1 libomniConnectionMgmt4.so
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB/connections'
+make[3]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib/omniORB'
+make[2]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/lib'
+making install in src/appl...
+make[2]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl'
+making install in src/appl/omniNames...
+make[3]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/omniNames'
++ /usr/bin/install -c -m 0755 omniNames /opt/bin
+make[3]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/omniNames'
+making install in src/appl/utils...
+make[3]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/utils'
+making install in src/appl/utils/genior...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/utils/genior'
++ /usr/bin/install -c -m 0755 genior /opt/bin
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/utils/genior'
+making install in src/appl/utils/catior...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/utils/catior'
++ /usr/bin/install -c -m 0755 catior /opt/bin
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/utils/catior'
+making install in src/appl/utils/convertior...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/utils/convertior'
++ /usr/bin/install -c -m 0755 convertior /opt/bin
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/utils/convertior'
+making install in src/appl/utils/nameclt...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/utils/nameclt'
++ /usr/bin/install -c -m 0755 nameclt /opt/bin
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/utils/nameclt'
+make[3]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/utils'
+making install in src/appl/omniMapper...
+make[3]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/omniMapper'
++ /usr/bin/install -c -m 0755 omniMapper /opt/bin
+make[3]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl/omniMapper'
+make[2]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/appl'
+making install in src/services...
+make[2]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/services'
+making install in src/services/mklib...
+make[3]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/services/mklib'
++ ../../../bin/scripts/omkdirhier /opt/include/COS
++ /usr/bin/install -c -m 0644 TimeBase.hh /opt/include/COS
++ /usr/bin/install -c -m 0644 CosTime.hh /opt/include/COS
++ /usr/bin/install -c -m 0644 CosEventComm.hh /opt/include/COS
++ /usr/bin/install -c -m 0644 CosEventChannelAdmin.hh /opt/include/COS
++ /usr/bin/install -c -m 0644 CosNotification.hh /opt/include/COS
++ /usr/bin/install -c -m 0644 CosNotifyComm.hh /opt/include/COS
++ /usr/bin/install -c -m 0644 CosNotifyFilter.hh /opt/include/COS
++ /usr/bin/install -c -m 0644 CosNotifyChannelAdmin.hh /opt/include/COS
++ /usr/bin/install -c -m 0644 CosLifeCycle.hh /opt/include/COS
++ /usr/bin/install -c -m 0644 COS_sysdep.h /opt/include/COS
+making install in src/services/mklib/stublib...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/services/mklib/stublib'
++ /usr/bin/install -c -m 0644 static/libCOS4.a /opt/lib
++ /usr/bin/install -c -m 0644 shared/libCOS4.so.1.5 /opt/lib
++ cd /opt/lib
++ rm -f libCOS4.so.1
++ ln -s libCOS4.so.1.5 libCOS4.so.1
++ rm -f libCOS4.so
++ ln -s libCOS4.so.1 libCOS4.so
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/services/mklib/stublib'
+making install in src/services/mklib/dynstublib...
+make[4]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/services/mklib/dynstublib'
++ /usr/bin/install -c -m 0644 static/libCOSDynamic4.a /opt/lib
++ /usr/bin/install -c -m 0644 shared/libCOSDynamic4.so.1.5 /opt/lib
++ cd /opt/lib
++ rm -f libCOSDynamic4.so.1
++ ln -s libCOSDynamic4.so.1.5 libCOSDynamic4.so.1
++ rm -f libCOSDynamic4.so
++ ln -s libCOSDynamic4.so.1 libCOSDynamic4.so
+make[4]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/services/mklib/dynstublib'
+make[3]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/services/mklib'
+make[2]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src/services'
+make[1]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/src'
+making install in ./include...
+make[1]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/include'
++ /usr/bin/install -c -m 0644 omnithread.h /opt/include
++ /usr/bin/install -c -m 0644 omniconfig.h /opt/include
+making install in include/omnithread...
+make[2]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/include/omnithread'
++ ../../bin/scripts/omkdirhier /opt/include/omnithread
++ /usr/bin/install -c -m 0644 mach.h /opt/include/omnithread
++ /usr/bin/install -c -m 0644 nt.h /opt/include/omnithread
++ /usr/bin/install -c -m 0644 posix.h /opt/include/omnithread
++ /usr/bin/install -c -m 0644 pthread_nt.h /opt/include/omnithread
++ /usr/bin/install -c -m 0644 solaris.h /opt/include/omnithread
+make[2]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/include/omnithread'
+making install in include/omniORB4...
+make[2]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/include/omniORB4'
++ /usr/bin/install -c -m 0644 acconfig.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 BiDirPolicy.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_AbstractBase.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_Any.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_Any_vartypes.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_BOA.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_Context.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_Current.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_DomainManager.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_Environment.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_Exception.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_ExceptionList.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_Fixed.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_LocalObject.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_LocalObject_vartypes.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_NamedValue.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_ORB.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_Object.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_Object_vartypes.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_Policy.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_Principal.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_Request.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_ServerRequest.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_String.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_TypeCode.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_TypeCode_member.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_UnknownUserException.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_ValueBase.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_ValueBase_vartypes.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_basetypes.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_primitive_types.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_static_fns.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_sysdep.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_sysdep_auto.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_sysdep_trad.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 CORBA_vartypes.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 GIOP.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 IIOP.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 IOP.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 IOP_C.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 IOP_S.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 anyStream.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 boa.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 callDescriptor.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 callHandle.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 cdrStream.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 codeSets.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 corba_operators.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 dynAny.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 finalCleanup.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 fixed.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 giopEndpoint.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 linkHacks.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 local_config.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 minorCode.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 objTracker.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniAsyncInvoker.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniIOR.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniInterceptors.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniInternal.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORB.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniORBcompat.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniObjKey.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniObjRef.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniPolicy.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniServant.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniServer.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniTransport.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniURI.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniutilities.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 optionalFeatures.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 poa.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 poa_defs.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 poa_poa.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 proxyFactory.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 seqTemplatedecls.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 seqTemplatedefns.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 sslContext.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 streamOperators.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 stringtypes.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 templatedecls.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 templatedefns.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 tracedthread.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 userexception.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 valueFactoryManager.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 valueType.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 valueTemplatedecls.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 valueTemplatedefns.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 wstringtypes.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 omniConnectionMgmt.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 ../../src/lib/omniORB/orbcore/tcp/tcpAddress.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 ../../src/lib/omniORB/orbcore/tcp/tcpConnection.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 ../../src/lib/omniORB/orbcore/tcp/tcpEndpoint.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 ../../src/lib/omniORB/orbcore/tcp/tcpTransportImpl.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 ../../src/lib/omniORB/orbcore/unix/unixAddress.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 ../../src/lib/omniORB/orbcore/unix/unixConnection.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 ../../src/lib/omniORB/orbcore/unix/unixEndpoint.h /opt/include/omniORB4
++ /usr/bin/install -c -m 0644 ../../src/lib/omniORB/orbcore/unix/unixTransportImpl.h /opt/include/omniORB4
+making install in include/omniORB4/internal...
+make[3]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/include/omniORB4/internal'
++ ../../../bin/scripts/omkdirhier /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 GIOP_C.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 GIOP_S.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 SocketCollection.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 anonObject.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 codeSetUtil.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 context.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 corbaBoa.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 corbaOrb.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 deferredRequest.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 dynAnyImpl.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 dynamicImplementation.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 dynamicLib.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 excepthandler.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 exceptiondefs.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 giopBiDir.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 giopMonitor.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 giopRendezvouser.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 giopRope.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 giopServer.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 giopStrand.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 giopStrandFlags.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 giopStream.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 giopStreamImpl.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 giopWorker.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 inProcessIdentity.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 initRefs.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 initialiser.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 invoker.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 libcWrapper.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 localIdentity.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 objectAdapter.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 objectStub.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 objectTable.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 omniCurrent.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 omniIdentity.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 orbOptions.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 orbParameters.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 poacurrentimpl.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 poaimpl.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 poamanager.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 pseudo.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 remoteIdentity.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 request.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 rmutex.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 shutdownIdentity.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 tcParser.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 transportRules.h /opt/include/omniORB4/internal
++ /usr/bin/install -c -m 0644 typecode.h /opt/include/omniORB4/internal
+make[3]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/include/omniORB4/internal'
+make[2]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/include/omniORB4'
+make[1]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/include'
+making install in ./idl...
+make[1]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/idl'
++ ../bin/scripts/omkdirhier /opt/share/idl/omniORB
++ /usr/bin/install -c -m 0644 Naming.idl /opt/share/idl/omniORB
++ /usr/bin/install -c -m 0644 bootstrap.idl /opt/share/idl/omniORB
++ /usr/bin/install -c -m 0644 corbaidl.idl /opt/share/idl/omniORB
++ /usr/bin/install -c -m 0644 echo.idl /opt/share/idl/omniORB
++ /usr/bin/install -c -m 0644 ir.idl /opt/share/idl/omniORB
++ /usr/bin/install -c -m 0644 orb.idl /opt/share/idl/omniORB
++ /usr/bin/install -c -m 0644 poa.idl /opt/share/idl/omniORB
++ /usr/bin/install -c -m 0644 poa_include.idl /opt/share/idl/omniORB
++ /usr/bin/install -c -m 0644 boxes.idl /opt/share/idl/omniORB
+making install in idl/COS...
+make[2]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/idl/COS'
++ ../../bin/scripts/omkdirhier /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosCollection.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosCompoundLifeCycle.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosConcurrencyControl.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosContainment.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosEventChannelAdmin.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosEventComm.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosExternalization.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosExternalizationContainment.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosExternalizationReference.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosGraphs.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosLicensingManager.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosLifeCycle.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosLifeCycleContainment.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosLifeCycleReference.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosNaming.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosNotification.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosNotifyChannelAdmin.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosNotifyComm.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosNotifyFilter.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosObjectIdentity.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosPersistenceDDO.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosPersistenceDS_CLI.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosPersistencePDS.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosPersistencePDS_DA.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosPersistencePID.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosPersistencePO.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosPersistencePOM.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosPropertyService.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosQuery.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosQueryCollection.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosReference.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosRelationships.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosStream.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosTSPortability.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosTime.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosTimerEvent.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosTrading.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosTradingDynamic.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosTradingRepos.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosTransactions.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosTypedEventChannelAdmin.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosTypedEventComm.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosTypedNotifyChannelAdmin.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 CosTypedNotifyComm.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 DCE_CIOPSecurity.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 LifeCycleService.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 Lname-library.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 NRService.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 RDITestTypes.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 SECIOP.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 SSLIOP.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 Security.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 SecurityAdmin.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 SecurityLevel1.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 SecurityLevel2.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 SecurityReplaceable.idl /opt/share/idl/omniORB/COS
++ /usr/bin/install -c -m 0644 TimeBase.idl /opt/share/idl/omniORB/COS
+make[2]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/idl/COS'
+make[1]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/idl'
+making install in ./contrib...
+make[1]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/contrib'
+making install in contrib/pkgconfig...
+make[2]: Entering directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/contrib/pkgconfig'
++ ../../bin/scripts/omkdirhier /opt/lib/pkgconfig
++ /usr/bin/install -c -m 0644 omnithread3.pc /opt/lib/pkgconfig
++ /usr/bin/install -c -m 0644 omniORB4.pc /opt/lib/pkgconfig
++ /usr/bin/install -c -m 0644 omniDynamic4.pc /opt/lib/pkgconfig
++ /usr/bin/install -c -m 0644 omniCOS4.pc /opt/lib/pkgconfig
++ /usr/bin/install -c -m 0644 omniCOSDynamic4.pc /opt/lib/pkgconfig
++ /usr/bin/install -c -m 0644 omniConnectionMgmt4.pc /opt/lib/pkgconfig
+make[2]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/contrib/pkgconfig'
+make[1]: Leaving directory '/media/nintu/nintu/CPP/corba/omniORB-4.1.5/contrib'
