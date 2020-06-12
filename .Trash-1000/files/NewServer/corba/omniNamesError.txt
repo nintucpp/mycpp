@@ -1,0 +1,20 @@
+omniNames: (0) 2020-01-26 02:32:38.335900: Data file: '/media/nintu/nintu/CPP/corba/mniNamesLogdir/omninames-nintu.dat'.
+omniNames: (0) 2020-01-26 02:32:38.335981: Starting omniNames for the first time.
+omniNames: (0) 2020-01-26 02:32:38.336076: Error: cannot create initial data file '/media/nintu/nintu/CPP/corba/mniNamesLogdir/omninames-nintu.dat': No such file or directory
+omniNames: (0) 2020-01-26 02:32:38.336111: You can set the environment variable OMNINAMES_DATADIR to specify the directory where the data files are kept.
+omniNames: (0) 2020-02-05 20:47:08.566086: Error: cannot open data file '/media/nintu/nintu/CPP/corba/omniNamesLogdir/omninames-nintu.dat': No such file or directory
+omniNames: (0) 2020-02-08 10:22:42.451114: Error: cannot open data file '/media/nintu/nintu/CPP/corba/omniNamesLogdir/omninames-nintu.dat': No such file or directory
+omniNames: (0) 2020-02-08 10:27:11.540804: Error: cannot open data file '/media/nintu/nintu/CPP/corba/omniNamesLogdir/omninames-nintu.dat': No such file or directory
+omniNames: (0) 2020-02-08 10:29:14.715917: Error: cannot open data file '/media/nintu/nintu/CPP/corba/omniNamesLogdir/omninames-nintu.dat': No such file or directory
+omniNames: (0) 2020-02-08 10:38:00.898328: Data file: '/media/nintu/nintu/CPP/corba/omniNamesLogdir/omninames-nintu.dat'.
+omniNames: (0) 2020-02-08 10:38:00.898516: Starting omniNames for the first time.
+omniNames: (0) 2020-02-08 10:38:00.898921: Wrote initial data file '/media/nintu/nintu/CPP/corba/omniNamesLogdir/omninames-nintu.dat'.
+omniNames: (0) 2020-02-08 10:38:00.899111: Read data file '/media/nintu/nintu/CPP/corba/omniNamesLogdir/omninames-nintu.dat' successfully.
+omniNames: (0) 2020-02-08 10:38:00.899177: Root context is IOR:010000002b00000049444c3a6f6d672e6f72672f436f734e616d696e672f4e616d696e67436f6e746578744578743a312e300000010000000000000070000000010102000e0000003139322e3136382e312e31313600f90a0b0000004e616d6553657276696365000300000000000000080000000100000000545441010000001c000000010000000100010001000000010001050901010001000000090101000354544108000000182d3e5e01000acb
+omniNames: (0) 2020-02-08 10:38:00.899356: Checkpointing Phase 1: Prepare.
+omniNames: (0) 2020-02-08 10:38:00.899572: Checkpointing Phase 2: Commit.
+omniNames: (0) 2020-02-08 10:38:00.900199: Checkpointing completed.
+omniORB: (0) 2020-02-08 11:28:33.143285: Failed to bind to address :: port 2809. Address in use?
+omniORB: (0) 2020-02-08 11:28:33.166612: Error: Unable to create an endpoint of this description: giop:tcp::2809
+omniNames: (0) 2020-02-08 11:28:33.166888: Failed to initialise: INITIALIZE_TransportError
+omniNames may already be running, or omniORB may be misconfigured.

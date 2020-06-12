@@ -1,0 +1,11 @@
+prefix=/opt
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: omniCOSDynamic4
+Description: CORBA Object Request Broker - CORBA Services dynamic stubs
+Version: 4.1.5
+Requires: omniCOS4
+Libs: -L${libdir} -lCOSDynamic4
+Cflags:

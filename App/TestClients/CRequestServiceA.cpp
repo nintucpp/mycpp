@@ -146,9 +146,9 @@ bool CRequestServiceA::RequestCreateKrishiSevakProflie()
         << num2 << endl;
    const char* newprofile = "Thakur";
    string lastname = "Singh";
-//  char* name = CORBA::string_dup(lastname);
-  CORBA::String_var info_out="Raj";                                                                             
-   if( m_Data->CreateKrishiSevakProflie( newprofile, info_out)) // This is the CORBA call which is to be executed remotely
+  CORBA::String_var info_out="Raj"; 
+  string requstJson = R"({"Age": 20, "Name": "colin", "Address": "Tempnies"})";                                                                            
+   if( m_Data->CreateKrishiSevakProflie( requstJson.c_str(), info_out)) // This is the CORBA call which is to be executed remotely
    {    // Ok
       cout << "Values returned by Service Routine B: "
            << num1 << " "
