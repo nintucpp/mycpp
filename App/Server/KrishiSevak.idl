@@ -1,0 +1,17 @@
+#ifndef __KRISHISEVAKIST_IDL__
+#define __KRISHISEVAKIST_IDL__
+                                                                                
+module KrishiSevak
+{
+                                                                                
+interface ServiceKrishiSevak{
+   boolean CallServiceRoutineA ( in    long num1,
+                                 inout long num2,
+                                 out   long retNum );
+   boolean CallServiceRoutineB ( inout long num1,
+                                 inout long num2);
+   boolean CreateKrishiSevakProflie(in string newProfile,
+                                 inout string returnmsg);
+   };
+};
+#endif

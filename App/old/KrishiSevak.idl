@@ -1,0 +1,12 @@
+#ifndef __KRISHISEVAK_IDL__
+#define __KRISHISEVAK_IDL__
+                                                                                
+module KrishiSevak //Data
+{
+                                                                                
+interface ServerKrishiSevak{ //ServiceA
+   boolean CreateKrishiSevakProflie( in long newprofile,
+                                    inout  long exitStatus);
+   };
+};
+#endif

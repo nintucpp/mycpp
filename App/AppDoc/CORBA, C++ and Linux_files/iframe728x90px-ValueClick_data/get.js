@@ -1,0 +1,2 @@
+{var dz=document;
+dz.writeln("<a href=\"https:\/\/www.internetalerts.org\/\" target=\"_blank\"><img src=\"https:\/\/ads.dotomi.com\/banners\/fia\/728x90_default.jpg\" border=\"0\" width=\"728\" height=\"90\" alt=\"\"\/><\/a>");}
