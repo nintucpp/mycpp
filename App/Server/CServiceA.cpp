@@ -8,6 +8,7 @@
 #include <iostream>
 #include <fstream>.
 #include <stdio.h>
+#include "json/json.h"
                                                                                 
 #include "CServiceA.h"
 using namespace std;                                                                                
@@ -52,7 +53,27 @@ CORBA::Boolean CServiceA_i:: CreateKrishiSevakProflie( const char* sevakProfile,
   cout<< " inside server CreateKrishiSevakProflie " << endl;
 cout << "Value of sevak profile "<< sevakProfile << endl;
 cout <<"Incoming value of msg" << msg << endl;
-msg = CORBA::string_dup("return String");          
+const std::string rawJson = sevakProfile;
+const auto rawJsonLength = static_cast<int>(rawJson.length());
+constexpr bool shouldUseOldWay = false;
+  JSONCPP_STRING err;
+  Json::Value root;
+    Json::CharReaderBuilder builder;
+    const std::unique_ptr<Json::CharReader> reader(builder.newCharReader());
+    if (!reader->parse(rawJson.c_str(), rawJson.c_str() + rawJsonLength, &root,
+                       &err)) {
+      std::cout << "error" << std::endl;
+      return EXIT_FAILURE;
+    }
+  
+  const std::string name = root["Name"].asString();
+  const int age = root["Age"].asInt();
+  const std::string address = root["Address"].asString();
+  std::cout << name << std::endl;
+  std::cout << age << std::endl;
+  std::cout<< address << std::endl;
+  msg = CORBA::string_dup("return String"); 
+         
 //   num1++;
 //   num2++;
                                                                                 

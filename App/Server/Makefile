@@ -2,15 +2,18 @@ CC            = /usr/bin/g++
 CPPFLAGS      = -g -c
 LDFLAGS       = -g
 OMNI_HOME     = /opt
+JSON_HOME     = /home/nintu/vcpkg/packages/jsoncpp_x64-linux
 OMNI_INCLUDES = -I$(OMNI_HOME)/include
+JSON_INCLUDES = -I$(JSON_HOME)/include
 OMNI_LIB_DIR  = $(OMNI_HOME)/lib
+JSON_LIB_DIR  = $(JSON_HOME)/lib
 OMNIIDL       = $(OMNI_HOME)/bin/omniidl
-INCLUDES      = $(OMNI_INCLUDES)
-LD_LIBRARY_PATH          = -lomniORB4 -lomnithread -lomniDynamic4
+INCLUDES      = $(OMNI_INCLUDES) $(JSON_INCLUDES)
+LD_LIBRARY_PATH          = -lomniORB4 -lomnithread -lomniDynamic4 -ljsoncpp
 OBJECTS       = KrishiSevakSK.o CServiceA.o ServerKrishiSevak.o
                                                                                 
 all Server: $(OBJECTS)
-	$(CC) $(LDFLAGS) -o ServerKrishiSevak -L$(OMNI_HOME)/lib $(OBJECTS) $(LD_LIBRARY_PATH) $(LIBS)
+	$(CC) $(LDFLAGS) -o ServerKrishiSevak -L$(OMNI_LIB_DIR) -L$(JSON_LIB_DIR) $(OBJECTS) $(LD_LIBRARY_PATH) $(LIBS)
                                                                                 
 KrishiSevakSK.o: KrishiSevakSK.cc KrishiSevak.hh
 	$(CC) $(CPPFLAGS) $(INCLUDES) KrishiSevakSK.cc
