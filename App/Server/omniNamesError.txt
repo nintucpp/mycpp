@@ -9,3 +9,9 @@ omniNames: (0) 2020-06-12 21:31:41.683594: Checkpointing completed.
 omniNames: (0) 2020-06-12 21:46:41.683760: Checkpointing Phase 1: Prepare.
 omniNames: (0) 2020-06-12 21:46:41.685018: Checkpointing Phase 2: Commit.
 omniNames: (0) 2020-06-12 21:46:41.686189: Checkpointing completed.
+omniNames: (0) 2020-06-13 00:01:41.687089: Checkpointing Phase 1: Prepare.
+omniNames: (0) 2020-06-13 00:01:41.701193: Checkpointing Phase 2: Commit.
+omniNames: (0) 2020-06-13 00:01:41.701784: Checkpointing completed.
+omniNames: (0) 2020-06-13 19:01:41.708669: Checkpointing Phase 1: Prepare.
+omniNames: (0) 2020-06-13 19:01:41.710082: Checkpointing Phase 2: Commit.
+omniNames: (0) 2020-06-13 19:01:41.711177: Checkpointing completed.
