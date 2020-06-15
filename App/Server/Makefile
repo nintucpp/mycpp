@@ -3,12 +3,14 @@ CPPFLAGS      = -g -c
 LDFLAGS       = -g
 OMNI_HOME     = /opt
 JSON_HOME     = /home/nintu/vcpkg/packages/jsoncpp_x64-linux
+APP_HOME     = /media/nintu/nintu/App
+APP_INCLUDES = -I$(APP_HOME)/include
 OMNI_INCLUDES = -I$(OMNI_HOME)/include
 JSON_INCLUDES = -I$(JSON_HOME)/include
 OMNI_LIB_DIR  = $(OMNI_HOME)/lib
 JSON_LIB_DIR  = $(JSON_HOME)/lib
 OMNIIDL       = $(OMNI_HOME)/bin/omniidl
-INCLUDES      = $(OMNI_INCLUDES) $(JSON_INCLUDES)
+INCLUDES      = $(OMNI_INCLUDES) $(JSON_INCLUDES) $(APP_INCLUDES)
 LD_LIBRARY_PATH          = -lomniORB4 -lomnithread -lomniDynamic4 -ljsoncpp
 OBJECTS       = KrishiSevakSK.o CServiceA.o ServerKrishiSevak.o
                                                                                 

@@ -9,6 +9,7 @@
 #include <fstream>.
 #include <stdio.h>
 #include "json/json.h"
+#include "KrishiSevakProfile.h"
                                                                                 
 #include "CServiceA.h"
 using namespace std;                                                                                
