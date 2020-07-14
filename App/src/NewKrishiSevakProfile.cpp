@@ -1,6 +1,7 @@
 #include "KrishiSevakProfile.h"
 #include "NewKrishiSevakProfile.h"
 #include "json/json.h"
+#include "DBConnection.h"
 #include <iostream>
 void NewKrishiSevakProfile::fun() { cout << "fun() called"; } 
 NewKrishiSevakProfile::NewKrishiSevakProfile()
@@ -14,6 +15,20 @@ NewKrishiSevakProfile::~NewKrishiSevakProfile()
 int NewKrishiSevakProfile::CreateNewKrishiSevakProfile(const string& newProfile)
 {
   cout<< "Inside NewKrishiSevakProfile::CreateNewKrishiSevakProfile  " << endl;
+ DBConnection *pDBConnection = new DBConnection();
+  // --------------------------------------------------------------------------
+  // Start CORBA server:
+  // --------------------------------------------------------------------------
+ pDBConnection->List();
+  pDBConnection->List();
+
+
+  delete pDBConnection;
+
+  cout << "ENTER to continue...";
+
+  cin.get();
+
 //  cout << "NewProfile" << newProfile << endl;
   parseProfile(newProfile);
 
@@ -37,11 +52,12 @@ void NewKrishiSevakProfile::parseProfile(const string& newProfile)
       std::cout << "error" << std::endl;
     //  return EXIT_FAILURE;
     }
-  
-//  const std::string name = root["Name"].asString();
+
+  std::string name = root["Name"].asCString();
+  std::cout <<"Name is Neelendra:" << name << std::endl; 
 //  const int age = root["Age"].asInt();
 //  const std::string address = root["Address"].asString();
-
+/*
 setLoginID(root["LoginID"].asString());
 setPassword(root["Password"].asString());
 setName(root["Name"].asString());
@@ -58,6 +74,7 @@ std::cout<< "Phone :" << getPhone() << std::endl;
 std::cout<< "TypeofKrishiSevak :" << getTypeofKrishiSevak() << std::endl;
 std::cout<< "About :" << getAbout() << std::endl;
 std::cout<< "CommunicationDetail :" << getCommunicationDetail() << std::endl;
+*/
 }
 int ValidateNewProfile(const string& newProfile)
 {

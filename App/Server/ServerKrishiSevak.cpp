@@ -1,10 +1,13 @@
 #include <stdlib.h>
+#include "Employees.h"
 #include <iostream>
 #include <string>
 #include <assert.h>
 #include <signal.h>
 #include <unistd.h>
-                                                                                
+using namespace oracle::occi;
+using oracle::occi::Environment;
+using oracle::occi::Connection;                                                                                
 #include "CServiceA.h"
                                                                                 
 #include "KrishiSevak.hh"
@@ -13,10 +16,11 @@ using namespace std;
                                                                                 
 int main(int argc, char** argv)
 {
+ 
   // --------------------------------------------------------------------------
   // Start CORBA server:
   // --------------------------------------------------------------------------
-                                                                                
+ 
   try {
     //------------------------------------------------------------------------
     // 1) Initialize ORB
@@ -137,6 +141,7 @@ int main(int argc, char** argv)
   catch(...) {
     cerr << "Caught unknown exception." << endl;
   }
-                                                                                
+                                                                        
   return 0;
 }
+
